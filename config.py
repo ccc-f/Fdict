@@ -19,5 +19,5 @@ add_pre = ['!',]
 is_add_suf = False
 add_suf = ['!']
 # 根据已知工号生成用户名如 1234 会遍历四位数生成一系列用户名为 公司简称+工号
-build_jobNo_username = True
-build_other_username = True
+build_jobNo_username = False
+build_other_username = False
