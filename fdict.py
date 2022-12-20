@@ -162,7 +162,8 @@ class Fdict():
         self.addSufPre()
         self.removeRepeat()
         self.filterPwd()
-        self.buildUsername()
+        if build_jobNo_username:
+            self.buildUsername()
         if company_domain:
             self.savePwd('./results/{}.txt'.format(company_domain),self.pwd)
             self.savePwd('./results/username-{}.txt'.format(company_domain),self.user)

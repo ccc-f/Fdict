@@ -1,13 +1,13 @@
 # 公司信息
-company_domain = 'xxx.com'
-company_short_name = 'qax'
-company_city_short_name = 'sz'
+company_domain = 'xx.com'
+company_short_name = 'xx'
+company_city_short_name = 'gz'
 # 公司相关代码 证卷代码 或者 股票代码 或者 客服电话号码 或者 邮政编码 或者 公司成立的时间
-company_code = ['002500',]
+company_code = []
 # 工号
-jobNo = '1234'
+jobNo = ''
 # 已知账号，不知道可以不写
-username = 'lzy'
+username = ''
 # 密码的最小位数
 min_pwd = 0
 # 密码的最大位数
